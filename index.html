@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base64 Converter</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text-center mb-4">Base64 Converter</h1>
+
+    <div class="form-group">
+      <label for="inputData">Enter Text or Base64:</label>
+      <textarea class="form-control" id="inputData" placeholder="Enter text or Base64 data"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="conversionDirection">Select Conversion Direction:</label>
+      <select class="form-control conversion-direction" id="conversionDirection">
+        <option value="textToBase64">Text to Base64</option>
+        <option value="base64ToText">Base64 to Text</option>
+      </select>
+    </div>
+
+    <button class="btn btn-success btn-block mb-3" onclick="convert()">Convert</button>
+
+    <div class="row space"></div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Result:</h3>
+        <textarea class="form-control result-textarea" style="color: #222;" id="resultArea" readonly></textarea>
+      </div>
+    </div>
+
+    <button class="btn btn-primary btn-block copy-button" onclick="copyResults()">Copy Results</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="script.js"></script>
+</body>
+</html>
