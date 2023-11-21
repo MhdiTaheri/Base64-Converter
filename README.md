@@ -38,7 +38,7 @@ Simply open the `index.html` file in a web browser to use the Base64 Converter t
 
 ## Support
 
-For any issues or suggestions, please feel free to [raise an issue](link-to-your-issue-tracker) or contact [author-name](link-to-author-profile).
+For any issues or suggestions, please feel free to [raise an issue](https://github.com/MhdiTaheri/Base64-Converter/issues) or contact [author-name](https://github.com/MhdiTaheri/).
 
 ---
 
